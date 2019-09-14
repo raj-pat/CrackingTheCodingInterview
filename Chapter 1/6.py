@@ -15,7 +15,7 @@ def compress(word):
     newWord.append(lastLetter)
     newWord.append(str(counter))
 
-    return ' '.join(newWord)
+    return ''.join(newWord)
 
 
 print(compress("aaaabbbbdddfgggggdssaaa"))
