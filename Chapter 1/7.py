@@ -21,12 +21,12 @@ def rotateCounter(matrix):
     for i in range(0, int(size)):
         for j in range(i, size - i):
             temp = matrix[i][j]
-            matrix[i][j] = matrix[j][size - i]  # Right = Top
+            matrix[i][j] = matrix[j][size - i]  # Top = Right
             temp2 = matrix[size - j][i]
-            matrix[size - j][i] = temp  # Left = Top
+            matrix[size - j][i] = temp          # Left = Top
             temp = matrix[size - i][size - j]
             matrix[size - i][size - j] = temp2  # Bottom = left
-            matrix[j][size - i] = temp  # Right = Bottom
+            matrix[j][size - i] = temp          # Right = Bottom
             print(str(i) + str(j), end="")
         print("\n")
     for line in matrix:
