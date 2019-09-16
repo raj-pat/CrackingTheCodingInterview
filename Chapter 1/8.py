@@ -14,7 +14,7 @@ def startLeft(index, list):
         list[index] = 0
     except IndexError:
         return 
-    startLeft(index - 1, list)
+    startLeft(index - 1, list) 
 
 
 def testMethod(listTest):
