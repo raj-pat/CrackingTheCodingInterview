@@ -15,11 +15,6 @@ def defLL(LL):
 
 
 # To remove the duplicates from the linked list
-import importlib
-
-importlib.import_module("localLinkedList")
-
-
 def removeDup(startNode):
     currNode = startNode
     last = startNode
@@ -27,7 +22,7 @@ def removeDup(startNode):
     buffer.append(currNode.val)
     while (currNode != None):
         currDeleted = False
-        if currNode.val in buffer:  # check if the next value exist in the set. If it does, remove the next from the LL
+        if currNode.val in buffer:  # check if the value exist in the set. If it does, remove it
             last.next = currNode.next
             currDeleted = True
         else:
