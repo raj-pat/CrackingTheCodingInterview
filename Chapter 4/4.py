@@ -35,6 +35,6 @@ nod[3].left = nod[9]
 nod[4].left = nod[7]
 nod[5].right = nod[8]
 
-# nod[7].left = nod[10]
+# nod[7].left = nod[10] #comment/Uncomment to make it balanced/unbalanced
 
-print(isBalanced(nod[0]))
+print("Unbalanced") if isBalanced(nod[0]) == -1 else print("Balanced")
