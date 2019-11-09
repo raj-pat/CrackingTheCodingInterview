@@ -1,39 +1,27 @@
-class Node:
-    def __init__(self, val, next=None):
-        self.val = val
-        self.next = next
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
 
-def defLL(LL):
-    last = Node(LL[0])
-    first = last
-    for val in LL[1:]:
-        newNode = Node(val, None)
-        last.next = newNode
-        last = newNode
-    return first
+class Solution:
 
-
-# To remove the duplicates from the linked list
-def removeDup(startNode):
-    currNode = startNode
-    last = startNode
-    buffer = []
-    buffer.append(currNode.val)
-    while (currNode != None):
-        currDeleted = False
-        if currNode.val in buffer:  # check if the value exist in the set. If it does, remove it
-            last.next = currNode.next
-            currDeleted = True
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        l3 = ListNode(-1)
+        root = l3
+        while (l1 != None and l2 != None):
+            if l1.val < l2.val:
+                l3.next = ListNode(l1.val)
+                l1 = l1.next
+            else:
+                l3.next = ListNode(l2.val)
+                l2 = l2.next
+            print(l3.val)
+            l3 = l3.next
+        if l1 == None:
+            l3.next = l2
         else:
-            buffer.append(currNode.val)
-        if currDeleted is False:
-            last = currNode
-        currNode = currNode.next
+            l3.next = l1
 
-    while (startNode != None):
-        print(str(startNode.val) + "-> ", end="")
-        startNode = startNode.next
-
-
-removeDup(defLL([3, 3, 3, 3, 3, 3, 3, 3]))
+        return root.next

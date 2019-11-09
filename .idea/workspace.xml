@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34cb0406-4004-4092-9ab4-c74f3bc72bc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter 4/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merge2SortedLL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 4/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 4/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 2/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 2/1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +18,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter 4/4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="646">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter 4/5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter 4/5.py">
+        <entry file="file://$PROJECT_DIR$/merge2SortedLL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="33" />
+            <state relative-caret-position="391">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter 2/1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter 2/2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -55,18 +82,19 @@
         <option value="$PROJECT_DIR$/Chapter 1/8.py" />
         <option value="$PROJECT_DIR$/Chapter 2/__init__.py" />
         <option value="$PROJECT_DIR$/Chapter 2/localLinkedList.py" />
-        <option value="$PROJECT_DIR$/Chapter 2/1.py" />
         <option value="$PROJECT_DIR$/Chapter 2/2.py" />
         <option value="$PROJECT_DIR$/Chapter 4/4.py" />
         <option value="$PROJECT_DIR$/Chapter 4/5.py" />
+        <option value="$PROJECT_DIR$/merge2SortedLL.py" />
+        <option value="$PROJECT_DIR$/Chapter 2/1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -87,7 +115,7 @@
             <path>
               <item name="CrackingTheCodingInterview" type="b2602c69:ProjectViewProjectNode" />
               <item name="CrackingTheCodingInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter 4" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter 2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,12 +260,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12082671" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12082671" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32006633" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32006633" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4859038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,87 +378,87 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>35</line>
+          <line>39</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>36</line>
+          <line>40</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>38</line>
+          <line>42</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>37</line>
+          <line>41</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>39</line>
+          <line>43</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>40</line>
+          <line>44</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>42</line>
+          <line>46</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>43</line>
+          <line>47</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>44</line>
+          <line>48</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>46</line>
+          <line>50</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>47</line>
+          <line>51</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>45</line>
+          <line>49</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>48</line>
+          <line>52</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>49</line>
+          <line>53</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>50</line>
+          <line>54</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>51</line>
+          <line>55</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter 4/5.py</url>
-          <line>52</line>
+          <line>56</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
@@ -497,20 +526,6 @@
     <entry file="file://$PROJECT_DIR$/Chapter 2/localLinkedList" />
     <entry file="file://$PROJECT_DIR$/Chapter 2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Chapter 2/localLinkedList.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter 2/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter 2/2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MY/Python/CminusCompiler/lexer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -523,15 +538,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 4/4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 4/5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="33" />
+        <state relative-caret-position="219">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 2/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 2/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge2SortedLL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
