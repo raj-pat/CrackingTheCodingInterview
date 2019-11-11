@@ -36,26 +36,16 @@ for elem in elems:
 #     inOrder(root.right)
 #
 
-def isBST(root, min, max):
-    if root != None:
-        if min == None and max == None:  # At the root node
-            if isBST(root.left, None, root.k) == -1:
-                return -1
-            if isBST(root.right, root.k, None) == -1:
-                return -1
-
-        if min != None:
-            if root.k < min:
-                return -1
-        if max != None:
-            if root.k > max:
-                return -1
-        if isBST(root.left, min, root.k) == -1:
-            return -1
-        elif isBST(root.right, root.k, max) == -1:
-            return -1
-    return 1
+def isBST(node, min, max):
+    if node == None:
+        return True
+    if min != None:
+        if node.val <= min:
+            return False
+    if max != None:
+        if node.val >= max:
+            return False
+    return isBST(node.left, min, node.val) and isBST(node.right, node.val, max)
 
 
-inOrder(root)
-print("True") if isBST(root, None, None) == 1 else print("False")
+print(isBST(root, None, None))
